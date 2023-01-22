@@ -19,7 +19,7 @@ https://language-detection-tcdx.herokuapp.com
 {"healthcheck": "OK"}
 
 
-``` curl -X 'GET' \ 'https://language-detection-tcdx.herokuapp.com/' \ -H 'accept: application/json'``` 
+``` curl -X 'GET'  'https://language-detection-tcdx.herokuapp.com/'  -H 'accept: application/json'``` 
 
 
 ==============================================================================================================
