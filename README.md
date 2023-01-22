@@ -18,6 +18,10 @@ https://language-detection-tcdx.herokuapp.com
 #### Expected Response
 {"healthcheck": "OK"}
 
+
+``` curl -X 'GET' \ 'https://language-detection-tcdx.herokuapp.com/' \ -H 'accept: application/json'``` 
+
+
 ==============================================================================================================
 
 
@@ -30,3 +34,6 @@ https://language-detection-tcdx.herokuapp.com
 
 #### Expected Response
 - Language: str
+
+Curl Example : 
+``` curl -X 'POST'  'https://language-detection-tcdx.herokuapp.com/language'  -H 'accept: application/json'  -H 'Content-Type: application/json'  -d '{ "text": "Hello World" }'``` 
