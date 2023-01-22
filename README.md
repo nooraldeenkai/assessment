@@ -10,7 +10,7 @@ https://language-detection-tcdx.herokuapp.com
 ## Endpoints
 
 ### /
--method : ####GET
+-method : GET
 
 
 #### Request Parameters
@@ -27,7 +27,7 @@ Curl Example :
 
 ### /language
 
--method : ####POST
+-method : POST
 
 #### Request Parameters
 - text: str (required)
