@@ -18,7 +18,12 @@ https://language-detection-tcdx.herokuapp.com
 #### Expected Response
 {"healthcheck": "OK"}
 
+============================================================================================================================
+
+
 ### /language
+
+-method : #POST
 
 #### Request Parameters
 - text: str (required)
