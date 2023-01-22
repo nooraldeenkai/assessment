@@ -1,8 +1,8 @@
 from pydantic import BaseModel
-import datetime
+
+#Input and Output pydantic models inherting Basemodel 
 
 
-#
 class Input(BaseModel):
     text: str
 
