@@ -18,7 +18,7 @@ https://language-detection-tcdx.herokuapp.com
 #### Expected Response
 {"healthcheck": "OK"}
 
-
+Curl Example : 
 ``` curl -X 'GET'  'https://language-detection-tcdx.herokuapp.com/'  -H 'accept: application/json'``` 
 
 
