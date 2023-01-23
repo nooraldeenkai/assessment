@@ -31,10 +31,12 @@ https://language-detection-tcdx.herokuapp.com
 ## Endpoints
 
 ### /
+
 -method : GET
 
-
 #### Request Parameters
+
+N/A 
 
 #### Expected Response
 {"healthcheck": "OK"}
@@ -51,10 +53,13 @@ Curl Example :
 -method : POST
 
 #### Request Parameters
+
 - text: str (required)
 
 #### Expected Response
+
 - Language: str
 
-Curl Example : 
+
+####Curl Example : 
 ``` curl -X 'POST'  'https://language-detection-tcdx.herokuapp.com/language'  -H 'accept: application/json'  -H 'Content-Type: application/json'  -d '{ "text": "Hello World" }'``` 
