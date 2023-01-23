@@ -61,5 +61,5 @@ Curl Example :
 - Language: str
 
 
-####Curl Example : 
+Curl Example : 
 ``` curl -X 'POST'  'https://language-detection-tcdx.herokuapp.com/language'  -H 'accept: application/json'  -H 'Content-Type: application/json'  -d '{ "text": "Hello World" }'``` 
