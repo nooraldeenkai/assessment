@@ -7,6 +7,27 @@ main app url :
 https://language-detection-tcdx.herokuapp.com
 
 
+## Supported Languages : 
+[
+    "Arabic",
+    "Danish",
+    "Dutch",
+    "English",
+    "French",
+    "German",
+    "Greek",
+    "Hindi",
+    "Italian",
+    "Kannada",
+    "Malayalam",
+    "Portugeese",
+    "Russian",
+    "Spanish",
+    "Sweedish",
+    "Tamil",
+    "Turkish",
+]
+
 ## Endpoints
 
 ### /
